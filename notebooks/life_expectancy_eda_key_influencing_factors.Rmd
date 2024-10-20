@@ -1,34 +1,24 @@
 ---
 title: "Life Expectancy EDA: Key Influencing Factors"
 author: "Alina Yildir"
-date: "2024-10-20"
-output: pdf_document
+date: "2024-10-21"
+output:
+  pdf_document:
+    toc: true
+    toc_depth: 3
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 ```
 
-# Table of Contents
-
-- **Introduction**
-- **Exploratory Data Analysis**
-  - **Univariate Analysis**
-    - Health Risk Factors and Mortality Indicators
-    - Vaccination and Disease Control Indicators
-    - Healthcare Expenditure and Resource Indicators
-    - Socio-Economic and Educational Indicators
-  - **Multivariate Analysis**
-    - Health Risk Factors and Mortality Indicators
-    - Vaccination and Disease Control Indicators
-    - Healthcare Expenditure and Resource Indicators
-    - Socio-Economic and Educational Indicators
-- **Conclusion**
-
-
 # Introduction
 
-This project aims to investigate the factors affecting life expectancy in various countries, including developed and developing nations. The study will analyze global disparities in life expectancy by assessing health risk factors, mortality indicators, vaccination and disease control measures, healthcare spending and resources, as well as socio-economic and educational aspects. By exploring the correlations between these variables and life expectancy, the analysis seeks to identify the main factors that impact life expectancy.
+The project examines the factors contributing to variations in life expectancy across different countries. Life expectancy is a fundamental indicator of population well-being and the efficacy of health systems, living conditions, and economic stability.
+
+Using exploratory data analysis (EDA), this project analyzes a dataset that spans multiple countries and years, incorporating various health, socio-economic, and demographic factors. The report is structured around univariate and multivariate analyses, providing a detailed investigation of standalone variables and their correlations with life expectancy.
+
+This project aims to identify the key factors influencing life expectancy, providing valuable insights to support global health and development initiatives.
 
 ```{r}
 library(ggplot2)
@@ -107,10 +97,10 @@ ggplot(life_expectancy_cleaned, aes(x = "", y = Life.expectancy)) +
 
 We have grouped the rest of the dataset variables into four categories:
 
-* Health Risk Factors and Mortality Indicators
-* Vaccination and Disease Control Indicators
-* Healthcare Expenditure and Resource Indicators
-* Socio-Economic and Educational Indicators
+- Health Risk Factors and Mortality Indicators
+- Vaccination and Disease Control Indicators
+- Healthcare Expenditure and Resource Indicators
+- Socio-Economic and Educational Indicators
 
 ### Health Risk Factors and Mortality Indicators
 
@@ -402,6 +392,7 @@ average_life_exp <- dataset %>%
   summarise(avg_life_exp = mean(Life.expectancy))
 head(average_life_exp)
 ```
+
 ```{r}
 mean(as.numeric(average_life_exp$avg_life_exp), na.rm = TRUE)
 median(as.numeric(average_life_exp$avg_life_exp), na.rm = TRUE)
@@ -1007,17 +998,19 @@ In summary, HDI and Years of Schooling have strong positive correlations with Li
 
 # Conclusion
 
-The analysis highlights that life expectancy is influenced by a complex set of factors, with notable differences between developed and developing countries.
+This project has thoroughly examined the factors contributing to variations in life expectancy across different countries, reinforcing its status as a crucial indicator of population well-being and the effectiveness of health systems. Through exploratory data analysis, we have gained valuable insights into how health, socio-economic, and demographic factors impact life expectancy.
 
-Countries with lower life expectancy tend to face significant challenges, including higher adult and child mortality rates, as well as a higher prevalence of diseases such as HIV/AIDS. These factors, alongside thinness in younger age groups, exhibit strong negative correlations with life expectancy.
+The findings reveal significant disparities between developed and developing nations. Countries with lower life expectancy often grapple with substantial challenges, such as elevated adult and child mortality rates and a higher prevalence of diseases like HIV/AIDS. These elements demonstrate strong negative correlations with life expectancy, emphasizing the urgent need for targeted public health interventions.
+Our analysis underscores the pivotal role of vaccination coverage in enhancing health outcomes. Higher vaccination rates for diseases like Hepatitis B, Polio, and DTP3 are strongly associated with improved life expectancy, underscoring the importance of robust public health measures in the fight against infectious diseases.
 
-Conversely, vaccination coverage for diseases such as Hepatitis B, Polio, and DTP3 plays a crucial role, as higher vaccination rates are associated with improved health outcomes. This underscores the importance of public health measures in preventing infectious diseases, which significantly affect life expectancy.
+Our analysis revealed that the size of a population has little correlation with life expectancy, suggesting that demographic factors alone do not determine longevity. However, it did show a positive correlation between healthcare expenditure—both as a percentage of total expenditure and GDP—and life expectancy. This finding underscores the critical need for sustained investment in healthcare systems to improve health outcomes.
 
-Population size shows almost no correlation with life expectancy, indicating that the number of people in a country does not directly affect the longevity of its citizens.
+Furthermore, socio-economic factors such as the Human Development Index and years of schooling emerged as more robust predictors of life expectancy than GDP alone. This indicates that holistic development, encompassing education and human welfare, is essential for improving life expectancy.
 
-Healthcare expenditure—both as a percentage of total expenditure and as a percentage of GDP—shows a positive correlation with life expectancy, underscoring the necessity of continuous investment in healthcare systems. Socio-economic factors like the HDI and years of schooling show even stronger relationships with life expectancy, suggesting that broader development, beyond just economic growth, is crucial. While GDP also shows a positive relationship, it is less impactful than education and human development.
+In conclusion, enhancing life expectancy is a complex endeavour requiring a multifaceted approach. This includes strategies to reduce mortality rates, increase vaccination coverage, and invest substantially in healthcare and socio-economic development. By addressing these interconnected factors, we can make significant strides toward improving population well-being and ensuring healthier futures for all.
 
-In summary, increasing life expectancy is not a one-dimensional task. It requires a comprehensive approach that includes reducing mortality rates, enhancing vaccination coverage, and investing in both healthcare and socio-economic development.
+
+
 
 
 
