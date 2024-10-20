@@ -12,7 +12,8 @@ In conclusion, **enhancing life expectancy is a complex endeavour requiring a mu
 
 Below are examples of the graphs included in the report's analysis.
 
-![2024 Medal Distribution Correlation Analysis](https://github.com/yildiramdsa/gdp_and_population_2024_olympic_medals/blob/main/images/2024_medal_distribution_correlation_analysis.png)
-![Population vs Medals (Part 1)](https://github.com/yildiramdsa/gdp_and_population_2024_olympic_medals/blob/main/images/population_vs_medals_part_1.png)
-![Population vs Medals (Part 2)](https://github.com/yildiramdsa/gdp_and_population_2024_olympic_medals/blob/main/images/population_vs_medals_part_2.png)
-![GDP per Capita vs Medals](https://github.com/yildiramdsa/gdp_and_population_2024_olympic_medals/blob/main/images/gdp_per_capita_vs_medals.png)
+![Impact of Health Risk Factors and Mortality Indicators on Life Expectancy (Part 1)](https://github.com/yildiramdsa/life_expectancy_eda_key_influencing_factors/blob/main/images/impact_of_health_risk_factors_and_mortality_indicators_on_life_expectancy_part_1.png)
+![Impact of Health Risk Factors and Mortality Indicators on Life Expectancy (Part 2)](https://github.com/yildiramdsa/life_expectancy_eda_key_influencing_factors/blob/main/images/impact_of_health_risk_factors_and_mortality_indicators_on_life_expectancy_part_2.png)
+![Impact of Vaccination and Disease Control Indicators on Life Expectancy](https://github.com/yildiramdsa/life_expectancy_eda_key_influencing_factors/blob/main/images/impact_of_vaccination_and_disease_control_indicators_on_life_expectancy.png)
+![Impact of Healthcare Expenditure and Resource Indicators on Life Expectancy](https://github.com/yildiramdsa/life_expectancy_eda_key_influencing_factors/blob/main/images/impact_of_healthcare_expenditure_and_resource_indicators_on_life_expectancy.png)
+![Impact of Socio-Economic and Educational Indicators on Life Expectancy](https://github.com/yildiramdsa/life_expectancy_eda_key_influencing_factors/blob/main/images/impact_of_socio_economic_and_educational_indicators_on_life_expectancy.png)
