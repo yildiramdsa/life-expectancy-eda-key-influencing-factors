@@ -1,8 +1,10 @@
 # Life Expectancy EDA: Key Influencing Factors
 
-![Life Expectancy EDA: Key Influencing Factors](https://github.com/yildiramdsa/life_expectancy_eda_key_influencing_factors/blob/main/images/life_expectancy_eda_key_influencing_factors.png)
+![Life Expectancy EDA: Key Influencing Factors]
 
 This project has thoroughly examined the factors contributing to variations in life expectancy across different countries, reinforcing its status as a crucial indicator of population well-being and the effectiveness of health systems. Through exploratory data analysis, we have gained valuable insights into how health, socio-economic, and demographic factors impact life expectancy.
+
+(https://github.com/yildiramdsa/life_expectancy_eda_key_influencing_factors/blob/main/images/life_expectancy_eda_key_influencing_factors.png)
 
 The findings reveal **significant disparities between developed and developing nations**. Countries with lower life expectancy often grapple with substantial challenges, such as elevated adult and child mortality rates and a higher prevalence of diseases like HIV/AIDS. These elements demonstrate strong negative correlations with life expectancy, emphasizing the urgent need for targeted public health interventions. Our analysis underscores the **pivotal role of vaccination coverage in enhancing health outcomes**. Higher vaccination rates for diseases like Hepatitis B, Polio, and DTP3 are strongly associated with improved life expectancy, underscoring the importance of robust public health measures in the fight against infectious diseases.
 
