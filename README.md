@@ -1,4 +1,4 @@
-# life_expectancy_eda_key_influencing_factors
+# life-expectancy-eda-key-influencing-factors
 
 **Tech Stack:** ![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white)
 
