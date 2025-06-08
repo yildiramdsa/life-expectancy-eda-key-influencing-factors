@@ -1,4 +1,4 @@
-# life-expectancy-eda-key-influencing-factors
+# Life Expectancy EDA: Key Influencing Factors
 
 **Tech Stack:** ![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white)
 
